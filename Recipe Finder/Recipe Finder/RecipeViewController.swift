@@ -45,7 +45,7 @@ UITableViewDelegate {
         //Get the Tag List by Tasty API request with NSURLSession
         let headers = [
             "x-rapidapi-host": "tasty.p.rapidapi.com",
-            "x-rapidapi-key": "b0484e2dbemsh43bbbbebc17a218p1c72e4jsnec1793b33d2d"
+            "x-rapidapi-key": x-rapidapi-key
         ]
 
         let request = NSMutableURLRequest(url: NSURL(string: "https://tasty.p.rapidapi.com/tags/list")! as URL,
